@@ -9,7 +9,7 @@
 
                 var message = '';
 
-                if ($scope.menu == null) {
+                if ($scope.menu == null || $scope.menu == '') {
                     message = 'Please enter data first';
                 }else{
                     var elements = countElements($scope.menu);
